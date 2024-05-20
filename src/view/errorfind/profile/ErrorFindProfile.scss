@@ -1,0 +1,131 @@
+.errorfind-profile {
+    width: 100%;
+
+    .errorfind-profile-nickname {
+        margin-top: 30px;
+
+        .errorfind-profile-nickname-text {
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+
+    .errorfind-profile-info-post {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        .errorfind-profile-info-post-count {
+            font-size: 16px;
+        }
+    }
+
+    .errorfind-profile-info-point {
+        display: flex;
+        justify-content: space-around;
+
+        .errorfind-profile-info-point-count {
+            font-size: 16px;
+        }
+    }
+
+    .errorfind-auth-section {
+        margin-top: 60px;
+
+        .errorfind-auth-errorboard {
+            text-align: left;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .errorfind-auth-data {
+            width: 600px;
+            display: flex;
+            overflow-x: scroll;
+            white-space: nowrap;
+            gap: 16px;
+
+            .errorfind-auth-card {
+                flex: 0 0 auto;
+                width: 250px;
+                margin: 8px;
+
+                .errorfind-auth-errortype {
+                    font-size: 12px;
+                    padding-left: 8px;
+                    text-align: left;
+                }
+
+                .errorfind-auth-platform {
+                    font-size: 12px;
+                    padding-left: 8px;
+                    text-align: left;
+                }
+
+                .errorfind-auth-formatDate {
+                    font-size: 12px;
+                    float: right;
+                    padding-right: 8px;
+                }
+            }
+        }
+    }
+
+    .auth-profile-nickname-input {
+        width: 580px;
+        height: 36px;
+        border: 3px solid rgb(221, 221, 221);
+        float: left;
+        padding-left: 8px;
+    }
+    
+    .auth-profile-email-input {
+        width: 580px;
+        height: 36px;
+        border: 3px solid rgb(221, 221, 221);
+        float: left;
+        padding-left: 8px;
+    }
+
+    .auth-profile-position-input {
+        width: 580px;
+        height: 36px;
+        border: 3px solid rgb(221, 221, 221);
+        float: left;
+        padding-left: 8px;
+    }
+
+    .auth-profile-errorhandler-input {
+        width: 580px;
+        height: 36px;
+        border: 3px solid rgb(221, 221, 221);
+        float: left;
+        padding-left: 8px;
+    }
+
+    .auth-profile-insert-button {
+        width: 600px;
+        height: 50px;
+        margin-top: 26px;
+        background-color: cornflowerblue;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .auth-profile-dark-theme {
+        width: 600px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .auth-profile-account-exit {
+        width: 600px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}

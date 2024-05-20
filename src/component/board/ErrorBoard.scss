@@ -1,0 +1,127 @@
+.main-component-title {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.main-component-help-title {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 140px;
+}
+
+@media screen and (min-width: 780px) {
+    .main-component {
+        width: auto;
+        height: auto;
+    }
+
+    .main-card {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .main-card-board-datas {
+        padding: 10px;
+
+        .main-type-text {
+            width: 200px;
+            margin-top: 6px;
+            margin-left: 6px;
+        }
+    
+        .main-type-delete {
+            width: 30px;
+            height: 20px;
+            margin-top: 6px;
+            margin-left: 16px;
+        }
+
+        .main-status-text {
+            margin-top: 6px;
+            font-weight: bold;
+            float: right;
+            margin-left: 18px;
+        }
+    }
+
+    .main-author-text {
+        width: auto;
+        margin-left: 6px;
+    }
+
+    .main-formatted-date-text {
+        margin-top: 24px;
+        float: left;
+    }
+}
+
+.main-component-status {
+    width: 730px;
+    height: 240px;
+
+    .main-component-status-card {
+        width: 480px;
+        height: 190px;
+        margin: 0 auto;
+        background-color: aliceblue;
+    }
+}
+
+.main-component {
+
+    .main-card {
+        width: 350px;
+        height: 260px;
+        margin-left: 30px;
+        cursor: pointer;
+        border: 3px solid rgb(221, 221, 221);
+
+        .main-link-style {
+            text-decoration: none;
+        }
+
+        .main-card-component {
+            height: 260px;
+
+            .main-card-board-datas {
+
+                .main-type-text {
+                    height: 16px;
+                    font-weight: bold;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 4px;
+                    margin-left: 6px;
+                    text-align: left;
+                }
+
+                .main-content-text {
+                    height: 64px;
+                    text-align: left;
+                    margin-left: 6px;
+                    font-size: 14px;
+                }
+
+                .main-card-board-data {
+                    display: flex;
+
+                    .main-author-text {
+                        text-align: left;
+                        margin-left: 6px;
+                    }
+
+                    .main-profile {
+                        float: left;
+                        border-radius: 50%;
+                        margin-left: 8px;
+                    }
+                }
+
+                .main-formatted-date-text {
+                    text-align: right;
+                    padding-left: 6px;
+                }
+            }
+        }
+    }
+}
